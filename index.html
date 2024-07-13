@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <p class="dev">Made by Vivek</p>
+    <div id="main">
+        <div id="calculator">
+            <div id="display">
+                <input type="text" id="right-display">
+                <div class="left-btn">
+                    <button class="ac-btn color-keys" onclick="ClearDisplay()">AC</button>
+                </div>
+            </div>
+            <div id="keys">
+                <button id="keys-btn" onclick="appendtodisplay('+')" class="color-keys">+</button>
+                <button id="keys-btn" onclick="appendtodisplay('7')">7</button>
+                <button id="keys-btn" onclick="appendtodisplay('8')">8</button>
+                <button id="keys-btn" onclick="appendtodisplay('9')">9</button>
+                <button id="keys-btn" onclick="appendtodisplay('-')" class="color-keys">-</button>
+                <button id="keys-btn" onclick="appendtodisplay('4')">4</button>
+                <button id="keys-btn" onclick="appendtodisplay('5')">5</button>
+                <button id="keys-btn" onclick="appendtodisplay('6')">6</button>
+                <button id="keys-btn" onclick="appendtodisplay('*')" class="color-keys">*</button>
+                <button id="keys-btn" onclick="appendtodisplay('1')">1</button>
+                <button id="keys-btn" onclick="appendtodisplay('2')">2</button>
+                <button id="keys-btn" onclick="appendtodisplay('3')">3</button>
+                <button id="keys-btn" onclick="appendtodisplay('/')" class="color-keys">/</button>
+                <button id="keys-btn" onclick="appendtodisplay('.')" class="color-keys">.</button>
+                <button id="keys-btn" onclick="appendtodisplay('0')">0</button>
+                <button id="keys-btn" onclick="Calculate()" class="color-keys">=</button>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

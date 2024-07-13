@@ -1,0 +1,23 @@
+@media screen and (max-width:480px) {
+    #calculator {
+        width: 60vw;
+        height: 70vh;
+    }
+
+    #right-display {
+        width: 70%;
+    }
+
+    #keys {
+        margin-left: 8px;
+        margin-bottom: 4px;
+    }
+
+    #keys-btn {
+        width: 21%;
+    }
+
+    .ac-btn {
+        width: 12vw;
+    }
+}
